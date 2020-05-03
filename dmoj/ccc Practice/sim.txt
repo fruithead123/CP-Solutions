@@ -1,0 +1,9 @@
+function(N):
+    K = 1
+    count = 0
+    for(K, K < N, K++):
+        print K
+        for(int l=k, l<N, l++):
+            count += 1
+            if count == N(N-1)//4:
+                exit function
